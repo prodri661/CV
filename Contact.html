@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>📞Contact Information📞</title>
+  </head>
+  <body>
+    <h1>Priscilla Rodriguez</h1>
+    <h3>Best Ways to Contact</h3>
+    <ul>
+      <li>Phone Number</li>
+        <ul>
+          <li>661.123.4567</li>
+        </ul>
+      <li>Email</li>
+        <ul>
+          <li>Pri123@gmail.com</li>
+        </ul>
+    </ul>
+    <hr>
+
+
+    <form action="mailto:prodri661@gmail.com" method="post" enctype="text/plain"> <!-- the action tells us what happens when we click submit-->
+      <h3>Have a Question?</h3><br> <!-- the mailto: attribute allows an email to be sent with the info once submit is clicked-->
+      <table>
+        <tr>
+          <td><label>Name:</label></td>
+          <td><input type="text" name="YourName" value=""></td>
+        </tr>
+        <tr>
+          <td><label>Email:</label></td>
+          <td><input type="text" name="YourEmail" value=""></td>
+        </tr>
+      </table>
+      <label>Leave a Comment:</label><br>
+      <textarea name="YourMessage" rows="10" cols="50"></textarea><br> <!-- allows you to put a textbox-->
+      <br><input type="file" name="" value=""><br><br>
+      <input type="submit" name="">
+    </form>
+    
+<!-- most notes for forms are below..I was messing around above-->
+
+<hr><br><br>
+    <form class="" action="index.html" method="post"> <!-- allow syou to create a form like a survey-->
+      <label>Student Name:</label> <!-- this is the name of one of the 'questions'-->
+      <input type="text" name="" value=""> <!-- this defines what type of input is required...ex.text--->
+      <input type="color" name="" value=""> <!-- gives the option of a color chooser-->
+      <input type="submit" name="" > <!-- allows you to place a submit button-->
+      <br>
+      <br>
+      <label>Upload File</label>
+      <input type="file" name="" value="">
+      <br><br>
+      <label>Password</label>
+      <input type="password" name="" value="">
+      <br><br>
+      <label>Is the class on the MA?</label>
+      <input type="checkbox" name="" value=""> <!--creates a checkbox option-->
+    </form>
+  </body>
+</html>
